@@ -1,0 +1,72 @@
+.price {
+  background: #ddd;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.price-item {
+  flex: 1;
+  flex-basis: 260px;
+  padding: 20px;
+  margin: 10px;
+  border: 4px solid #fff;
+}
+.price-item h2 {
+  color: #a4a4a4;
+  font-size: 3em;
+  text-align: center;
+}
+
+.price-item span {
+  font-size: 3em;
+  font-weight: bold;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px 0 5px;
+  display: block;
+  text-align: center;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+}
+.price-item span sup {
+  font-size: 1.5rem;
+}
+
+.price-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  line-height: 2;
+  font-style: italic;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+.price-item ul li {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-item ul li::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #122ab2;
+  border-radius: 50%;
+}
+.price-item button {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  border: 2px solid;
+  height: 35px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222;
+}
