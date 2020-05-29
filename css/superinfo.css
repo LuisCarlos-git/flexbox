@@ -1,0 +1,27 @@
+:root {
+  --bg-primary-color: #122ab2;
+  --font-color: #fff;
+  --size: 18px;
+}
+
+.info-container {
+  width: 100%;
+  background: var(--bg-primary-color);
+}
+
+.info-container .info {
+  color: var(--font-color);
+  font-weight: bold;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: var(--size);
+  padding: 10px 0;
+}
+
+.info-container .info p {
+  margin: 0 10px;
+}
