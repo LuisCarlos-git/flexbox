@@ -1,0 +1,43 @@
+.product {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.product h1 {
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.product .product-container .product-item {
+  flex: 1;
+  flex-shrink: 1;
+  flex-basis: 175px;
+  margin: 0 10px;
+}
+
+.product-item h2 {
+  color: #a4a4a4;
+  font-size: 3em;
+  padding: 60px 30px;
+  background: #f7f7f7;
+}
+
+.purple {
+  border-top: 8px solid purple;
+}
+.red {
+  border-top: 8px solid red;
+}
+.blue {
+  border-top: 8px solid blue;
+}
+
+.product-item .product-img img {
+  width: 100%;
+}
