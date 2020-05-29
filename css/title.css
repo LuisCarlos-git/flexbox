@@ -1,0 +1,11 @@
+.container-title {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+.container-title h2 {
+  font-size: 3em;
+  line-height: 1;
+}
